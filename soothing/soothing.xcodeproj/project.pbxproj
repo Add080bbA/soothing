@@ -22,6 +22,8 @@
 		77E1805A191D257E008BD32F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E18039191D257E008BD32F /* UIKit.framework */; };
 		77E18062191D257E008BD32F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E18060191D257E008BD32F /* InfoPlist.strings */; };
 		77E18064191D257E008BD32F /* soothingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E18063191D257E008BD32F /* soothingTests.m */; };
+		77E1806F191D2DA4008BD32F /* Dalga.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77E1806E191D2DA4008BD32F /* Dalga.mp3 */; };
+		77E18071191D2E51008BD32F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E18070191D2E51008BD32F /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		77E1805F191D257E008BD32F /* soothingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "soothingTests-Info.plist"; sourceTree = "<group>"; };
 		77E18061191D257E008BD32F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		77E18063191D257E008BD32F /* soothingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = soothingTests.m; sourceTree = "<group>"; };
+		77E1806E191D2DA4008BD32F /* Dalga.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dalga.mp3; sourceTree = "<group>"; };
+		77E18070191D2E51008BD32F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77E18071191D2E51008BD32F /* AVFoundation.framework in Frameworks */,
 				77E18038191D257E008BD32F /* CoreGraphics.framework in Frameworks */,
 				77E1803A191D257E008BD32F /* UIKit.framework in Frameworks */,
 				77E18036191D257E008BD32F /* Foundation.framework in Frameworks */,
@@ -84,6 +89,7 @@
 		77E18029191D257E008BD32F = {
 			isa = PBXGroup;
 			children = (
+				77E1806D191D2D72008BD32F /* mp3Files */,
 				77E1803B191D257E008BD32F /* soothing */,
 				77E1805D191D257E008BD32F /* soothingTests */,
 				77E18034191D257E008BD32F /* Frameworks */,
@@ -103,6 +109,7 @@
 		77E18034191D257E008BD32F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				77E18070191D2E51008BD32F /* AVFoundation.framework */,
 				77E18035191D257E008BD32F /* Foundation.framework */,
 				77E18037191D257E008BD32F /* CoreGraphics.framework */,
 				77E18039191D257E008BD32F /* UIKit.framework */,
@@ -153,6 +160,14 @@
 				77E18060191D257E008BD32F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77E1806D191D2D72008BD32F /* mp3Files */ = {
+			isa = PBXGroup;
+			children = (
+				77E1806E191D2DA4008BD32F /* Dalga.mp3 */,
+			);
+			name = mp3Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77E1806F191D2DA4008BD32F /* Dalga.mp3 in Resources */,
 				77E1804C191D257E008BD32F /* Main_iPad.storyboard in Resources */,
 				77E18051191D257E008BD32F /* Images.xcassets in Resources */,
 				77E18049191D257E008BD32F /* Main_iPhone.storyboard in Resources */,
